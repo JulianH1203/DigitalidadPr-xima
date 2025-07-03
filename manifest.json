@@ -1,19 +1,28 @@
 {
-  "name": "Frases Animadas",
-  "description": "Visualización dinámica de frases ecológicas",
-  "organization": "IU Digital",
-  "supportUrl": "mailto:julian.higuera@iudigital.edu.co",
-  "devMode": true,
-  "components": [
-    {
-      "id": "frases_animadas",
-      "name": "Frases Animadas",
-      "description": "Muestra frases por salto de línea con animación",
-      "resource": {
-        "js": "script.js",
-        "css": "style.css",
-        "config": "manifest.json"
-      }
-    }
-  ]
+  "viz": {
+    "id": "frases-animadas",
+    "title": "Frases Animadas",
+    "description": "Visualización animada de frases ecológicas separadas por salto de línea",
+    "author": {
+      "name": "Julian Higuera",
+      "email": "julian.higuera@iudigital.edu.co"
+    },
+    "resources": {
+      "js": "script.js",
+      "css": "style.css",
+      "html": "index.html"
+    },
+    "fields": {
+      "dimensions": [
+        {
+          "id": "frases_join",
+          "name": "Frases concatenadas",
+          "type": "TEXT"
+        }
+      ],
+      "metrics": []
+    },
+    "dataSet": true
+  }
 }
+
