@@ -1,28 +1,25 @@
 {
-  "viz": {
-    "id": "frases-animadas",
-    "title": "Frases Animadas",
-    "description": "Visualización animada de frases ecológicas separadas por salto de línea",
-    "author": {
-      "name": "Julian Higuera",
-      "email": "julian.higuera@iudigital.edu.co"
-    },
-    "resources": {
-      "js": "script.js",
-      "css": "style.css",
-      "html": "index.html"
-    },
-    "fields": {
-      "dimensions": [
-        {
-          "id": "frases_join",
-          "name": "Frases concatenadas",
-          "type": "TEXT"
-        }
-      ],
-      "metrics": []
-    },
-    "dataSet": true
-  }
+  "name": "Frases Animadas",
+  "description": "Animación de frases con salto de línea",
+  "id": "frases_animadas",
+  "organization": "IU Digital",
+  "supportUrl": "mailto:julian.higuera@iudigital.edu.co",
+  "homepage": "https://julianh1203.github.io/DigitalidadPr-xima/",
+  "visualization": {
+    "script": "script.js",
+    "style": "style.css",
+    "library": "index.html"
+  },
+  "fields": {
+    "dimensions": [
+      {
+        "id": "frases_join",
+        "name": "Frases",
+        "type": "TEXT"
+      }
+    ],
+    "metrics": []
+  },
+  "dataSet": true
 }
 
